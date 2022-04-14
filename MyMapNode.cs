@@ -8,6 +8,7 @@ namespace HashTables
 {
     class MyMapNode<K,V>
     {
+
         public struct KeyValue<k, v>
         {
             public k Key { get; set; }
