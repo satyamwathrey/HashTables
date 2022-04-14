@@ -17,7 +17,7 @@ namespace HashTables
             int key = 0;
 
             //Paragraph words assign to array
-            string paragraphPhrase = "To be or not to be";
+            string paragraphPhrase = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
             string[] paragraph = paragraphPhrase.Split(' ');
 
             //Object of class MyMapNode
@@ -35,13 +35,10 @@ namespace HashTables
             Console.WriteLine("frequency of words ");
             Console.WriteLine("--------------------------------");
 
-
             myMapNode.Display();
-
+        
             Console.WriteLine("--------------------------------");
             Console.WriteLine("--------------------------------");
-            Console.ReadLine();
-
             Console.ReadLine();
         }
     }
